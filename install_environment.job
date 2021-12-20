@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --partition=gpu_shared_course
+#SBATCH --partition=gpu
 #SBATCH --gres=gpu:0
 #SBATCH --job-name=F_InstallEnvironment
 #SBATCH --ntasks=1
