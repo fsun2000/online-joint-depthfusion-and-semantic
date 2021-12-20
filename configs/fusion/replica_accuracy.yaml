@@ -55,7 +55,7 @@ TESTING:
   semantic_2d_model_path: workspace/replica/segmentation/adapnet_rgb_tof/model/best.pth.tar
 DATA:
   dataset: Replica
-  root_dir: # path to replica dataset
+  root_dir: example_data/replica # path to replica dataset
   semantics: class30 # empty or class30
   semantic_strategy: predict # gt, predict, mono
   semantic_grid: True
