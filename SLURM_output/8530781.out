@@ -1,0 +1,30 @@
+Defaulting to user installation because normal site-packages is not writeable
+Processing /home/fsun/online-joint-depthfusion-and-semantic/deps/distance-transform
+Building wheels for collected packages: Generalized-Distance-Transforms-of-Sampled-Functions
+  Building wheel for Generalized-Distance-Transforms-of-Sampled-Functions (setup.py): started
+  Building wheel for Generalized-Distance-Transforms-of-Sampled-Functions (setup.py): finished with status 'done'
+  Created wheel for Generalized-Distance-Transforms-of-Sampled-Functions: filename=Generalized_Distance_Transforms_of_Sampled_Functions-0.0.0-cp38-cp38-linux_x86_64.whl size=239061 sha256=95945d1b51980dc87ede7e8c8eaaee076033b45d385f31f8d9a3b89019b140b6
+  Stored in directory: /home/fsun/.cache/pip/wheels/1f/5e/c7/2cc29d090956e774ddb78c01986504b4d6e068a9e467d5db90
+Successfully built Generalized-Distance-Transforms-of-Sampled-Functions
+Installing collected packages: Generalized-Distance-Transforms-of-Sampled-Functions
+Successfully installed Generalized-Distance-Transforms-of-Sampled-Functions-0.0.0
+Defaulting to user installation because normal site-packages is not writeable
+Processing /home/fsun/online-joint-depthfusion-and-semantic/deps/graphics
+Building wheels for collected packages: graphics
+  Building wheel for graphics (setup.py): started
+  Building wheel for graphics (setup.py): finished with status 'done'
+  Created wheel for graphics: filename=graphics-0.1.dev0-py3-none-any.whl size=6800 sha256=43449a96577f8bcdf7fa7ec9942bf1abd60b6ad08f01159b02b27aeb797ee3a2
+  Stored in directory: /scratch/pip-ephem-wheel-cache-ctu0w0nh/wheels/f3/3c/75/107575d1b1b60ae81c8c8d0823a91851dc000ee502a1b0e50f
+Successfully built graphics
+Installing collected packages: graphics
+Successfully installed graphics-0.1.dev0
+Defaulting to user installation because normal site-packages is not writeable
+Processing /home/fsun/online-joint-depthfusion-and-semantic/deps/tsdf
+Building wheels for collected packages: tsdf
+  Building wheel for tsdf (setup.py): started
+  Building wheel for tsdf (setup.py): finished with status 'done'
+  Created wheel for tsdf: filename=tsdf-0.1.dev0-cp38-cp38-linux_x86_64.whl size=844802 sha256=25263b84bdd9926096808f61ce8ec65db6bbecd0fa108fca70e53815737a582d
+  Stored in directory: /scratch/pip-ephem-wheel-cache-vrg97t92/wheels/1e/2c/53/3aa6c21a1498ee16a5e3f2bcdfb3df6bb7a3e3512b825497cf
+Successfully built tsdf
+Installing collected packages: tsdf
+Successfully installed tsdf-0.1.dev0
