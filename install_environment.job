@@ -1,17 +1,17 @@
 #!/bin/bash
 
-#SBATCH --partition=gpu
-#SBATCH --gres=gpu:0
+#SBATCH --partition=gpu_shared
+#SBATCH --gres=gpu:1
 #SBATCH --job-name=F_InstallEnvironment
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
-#SBATCH --time=04:00:00
+#SBATCH --time=01:00:00
 #SBATCH --mem=32000M
-#SBATCH --output=slurm_output_%A.out
+#SBATCH --output=%A.out
 
 module purge
 module load 2021
 module load Anaconda3/2021.05
 
 cd $HOME/online-joint-depthfusion-and-semantic/
-conda env create -f dl2021_gpu.yml --name segfusion
+conda env create -f environment.yml --name segfusion

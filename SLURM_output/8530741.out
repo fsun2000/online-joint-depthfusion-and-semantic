@@ -1,0 +1,22 @@
+usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: setup.py --help [cmd1 cmd2 ...]
+   or: setup.py --help-commands
+   or: setup.py cmd --help
+
+error: no commands supplied
+/sw/arch/Debian10/EB_production/2021/software/Anaconda3/2021.05/lib/python3.8/site-packages/setuptools/dist.py:461: UserWarning: Normalizing '0.1dev' to '0.1.dev0'
+  warnings.warn(tmpl.format(**locals()))
+usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: setup.py --help [cmd1 cmd2 ...]
+   or: setup.py --help-commands
+   or: setup.py cmd --help
+
+error: no commands supplied
+/sw/arch/Debian10/EB_production/2021/software/Anaconda3/2021.05/lib/python3.8/site-packages/setuptools/dist.py:461: UserWarning: Normalizing '0.1dev' to '0.1.dev0'
+  warnings.warn(tmpl.format(**locals()))
+usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: setup.py --help [cmd1 cmd2 ...]
+   or: setup.py --help-commands
+   or: setup.py cmd --help
+
+error: no commands supplied

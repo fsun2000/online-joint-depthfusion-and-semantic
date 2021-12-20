@@ -1,0 +1,46 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: setup.py --help [cmd1 cmd2 ...]
+   or: setup.py --help-commands
+   or: setup.py cmd --help
+
+error: no commands supplied
+/sw/arch/Debian10/EB_production/2021/software/Anaconda3/2021.05/lib/python3.8/site-packages/setuptools/dist.py:461: UserWarning: Normalizing '0.1dev' to '0.1.dev0'
+  warnings.warn(tmpl.format(**locals()))
+usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: setup.py --help [cmd1 cmd2 ...]
+   or: setup.py --help-commands
+   or: setup.py cmd --help
+
+error: no commands supplied
+Compiling src/tsdf/TSDFVolume.pyx because it changed.
+[1/1] Cythonizing src/tsdf/TSDFVolume.pyx
+/sw/arch/Debian10/EB_production/2021/software/Anaconda3/2021.05/lib/python3.8/site-packages/Cython/Compiler/Main.py:369: FutureWarning: Cython directive 'language_level' not set, using 2 for now (Py2). This will change in a later release! File: /home/fsun/online-joint-depthfusion-and-semantic/deps/tsdf/src/tsdf/TSDFVolume.pyx
+  tree = Parsing.p_module(s, pxd, full_module_name)
+warning: src/tsdf/TSDFVolume.pyx:577:42: Index should be typed for more efficient access
+/sw/arch/Debian10/EB_production/2021/software/Anaconda3/2021.05/lib/python3.8/site-packages/setuptools/dist.py:461: UserWarning: Normalizing '0.1dev' to '0.1.dev0'
+  warnings.warn(tmpl.format(**locals()))
+usage: setup.py [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]
+   or: setup.py --help [cmd1 cmd2 ...]
+   or: setup.py --help-commands
+   or: setup.py cmd --help
+
+error: no commands supplied
