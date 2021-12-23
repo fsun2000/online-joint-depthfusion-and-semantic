@@ -2,20 +2,18 @@
 
 #SBATCH --partition=gpu_shared
 #SBATCH --gres=gpu:1
-#SBATCH --job-name=F_InstallDeps
+#SBATCH --job-name=Replica_acc
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=3
 #SBATCH --time=01:00:00
 #SBATCH --mem=32000M
-#SBATCH --output=%A.out
+#SBATCH --output=replica_accuracy_logs
 
 module purge
 module load 2021
 module load Anaconda3/2021.05
 
-cd $HOME/online-joint-depthfusion-and-semantic/
 source activate segfusion
-pip install opencv-python
 
 cd $HOME/online-joint-depthfusion-and-semantic/deps/distance-transform
 pip install .
@@ -24,3 +22,5 @@ pip install .
 cd $HOME/online-joint-depthfusion-and-semantic/deps/tsdf
 pip install .
 
+cd $HOME/online-joint-depthfusion-and-semantic/
+srun python -u test_fusion.py --config configs/fusion/replica_accuracy.yaml
