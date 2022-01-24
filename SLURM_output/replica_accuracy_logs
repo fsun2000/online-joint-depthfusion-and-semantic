@@ -1,0 +1,88 @@
+Processing /home/fsun/online-joint-depthfusion-and-semantic/deps/distance-transform
+Building wheels for collected packages: Generalized-Distance-Transforms-of-Sampled-Functions
+  Building wheel for Generalized-Distance-Transforms-of-Sampled-Functions (setup.py): started
+  Building wheel for Generalized-Distance-Transforms-of-Sampled-Functions (setup.py): finished with status 'done'
+  Created wheel for Generalized-Distance-Transforms-of-Sampled-Functions: filename=Generalized_Distance_Transforms_of_Sampled_Functions-0.0.0-cp37-cp37m-linux_x86_64.whl size=201907 sha256=e7f6ef1f69bb6c308dd84861310ffdc08ddb1640b1f9785817619532ede6474e
+  Stored in directory: /home/fsun/.cache/pip/wheels/67/25/8d/05cf469e959df924b5bb591251341c7c9fadd18c3cd1d27834
+Successfully built Generalized-Distance-Transforms-of-Sampled-Functions
+Installing collected packages: Generalized-Distance-Transforms-of-Sampled-Functions
+  Attempting uninstall: Generalized-Distance-Transforms-of-Sampled-Functions
+    Found existing installation: Generalized-Distance-Transforms-of-Sampled-Functions 0.0.0
+    Uninstalling Generalized-Distance-Transforms-of-Sampled-Functions-0.0.0:
+      Successfully uninstalled Generalized-Distance-Transforms-of-Sampled-Functions-0.0.0
+Successfully installed Generalized-Distance-Transforms-of-Sampled-Functions-0.0.0
+Processing /home/fsun/online-joint-depthfusion-and-semantic/deps/graphics
+Building wheels for collected packages: graphics
+  Building wheel for graphics (setup.py): started
+  Building wheel for graphics (setup.py): finished with status 'done'
+  Created wheel for graphics: filename=graphics-0.1.dev0-py3-none-any.whl size=6799 sha256=5117cd5f86f66076d98b2faad4b22bf81a5108499cf3e4858ef596b3750b08c6
+  Stored in directory: /scratch/pip-ephem-wheel-cache-zyf2v16z/wheels/6d/12/a7/6add1dce43bf2fdccce8b42fa7a2a2fae6d91d475804f65d84
+Successfully built graphics
+Installing collected packages: graphics
+  Attempting uninstall: graphics
+    Found existing installation: graphics 0.1.dev0
+    Uninstalling graphics-0.1.dev0:
+      Successfully uninstalled graphics-0.1.dev0
+Successfully installed graphics-0.1.dev0
+Processing /home/fsun/online-joint-depthfusion-and-semantic/deps/tsdf
+Building wheels for collected packages: tsdf
+  Building wheel for tsdf (setup.py): started
+  Building wheel for tsdf (setup.py): finished with status 'done'
+  Created wheel for tsdf: filename=tsdf-0.1.dev0-cp37-cp37m-linux_x86_64.whl size=700088 sha256=67765036baa9dec608657d8daf7768bc7c5515d2fe5c04632f5e4f1ab9056790
+  Stored in directory: /scratch/pip-ephem-wheel-cache-t8xdsupu/wheels/45/ee/28/05375aab5d4b334a4a21ac28fcca7407c37caa91dc1ecc404d
+Successfully built tsdf
+Installing collected packages: tsdf
+  Attempting uninstall: tsdf
+    Found existing installation: tsdf 0.1.dev0
+    Uninstalling tsdf-0.1.dev0:
+      Successfully uninstalled tsdf-0.1.dev0
+Successfully installed tsdf-0.1.dev0
+office_0 (447, 511, 304)
+Fusion Parameters: 571833
+Filter outliers > 2
+  0%|          | 0/442 [00:00<?, ?it/s] 12%|#1        | 51/442 [00:30<03:51,  1.69it/s] 12%|#1        | 51/442 [00:49<03:51,  1.69it/s] 26%|##6       | 115/442 [01:00<03:02,  1.79it/s] 26%|##6       | 115/442 [01:19<03:02,  1.79it/s] 41%|####      | 181/442 [01:31<02:17,  1.89it/s] 41%|####      | 181/442 [01:49<02:17,  1.89it/s] 55%|#####5    | 245/442 [02:01<01:40,  1.95it/s] 55%|#####5    | 245/442 [02:19<01:40,  1.95it/s] 68%|######7   | 300/442 [02:31<01:14,  1.91it/s] 68%|######7   | 300/442 [02:49<01:14,  1.91it/s] 80%|########  | 355/442 [03:02<00:46,  1.88it/s] 80%|########  | 355/442 [03:19<00:46,  1.88it/s] 93%|#########2| 409/442 [03:32<00:17,  1.85it/s] 93%|#########2| 409/442 [03:49<00:17,  1.85it/s]100%|##########| 442/442 [03:50<00:00,  1.92it/s]
+Evaluating  office_0 ...
+mse 0.00011122634215255955
+mad 0.008285838672564405
+iou 0.9062250907550548
+acc 0.955225725133926
+2021-12-21 11:21:39,238 - test - INFO - Average test results over test scenes:
+2021-12-21 11:21:39,238 - test - INFO - mse: 0.00011122634215255955
+2021-12-21 11:21:39,238 - test - INFO - mad: 0.008285838672564405
+2021-12-21 11:21:39,239 - test - INFO - iou: 0.9062250907550548
+2021-12-21 11:21:39,239 - test - INFO - acc: 0.955225725133926
+2021-12-21 11:21:39,239 - test - INFO - Per scene results
+2021-12-21 11:21:39,239 - test - INFO - Scene: office_0
+2021-12-21 11:21:39,239 - test - INFO - mse: 0.00011122634215255955
+2021-12-21 11:21:39,239 - test - INFO - mad: 0.008285838672564405
+2021-12-21 11:21:39,239 - test - INFO - iou: 0.9062250907550548
+2021-12-21 11:21:39,239 - test - INFO - acc: 0.955225725133926
+2021-12-21 11:21:39,239 - test - INFO - 
+
+Evaluating  office_0 ...
+Mean Acc 0.8798248013397341
+Mean IoU 0.7694163374503078
+2021-12-21 11:21:45,818 - test - INFO - Average semantic results over test scenes
+2021-12-21 11:21:45,819 - test - INFO - Mean Acc    :	0.8798248013397341
+2021-12-21 11:21:45,819 - test - INFO - Mean IoU    :	0.7694163374503078
+2021-12-21 11:21:45,819 - test - INFO - Per scene semantic results:
+2021-12-21 11:21:45,819 - test - INFO - Scene: office_0
+2021-12-21 11:21:45,819 - test - INFO - 0: 0.9954041397791299
+2021-12-21 11:21:45,819 - test - INFO - 6: 0.9387880761024235
+2021-12-21 11:21:45,819 - test - INFO - 7: 0.6437382105585149
+2021-12-21 11:21:45,819 - test - INFO - 8: 0.44253333332629946
+2021-12-21 11:21:45,820 - test - INFO - 9: 0.7594450792738505
+2021-12-21 11:21:45,820 - test - INFO - 12: 0.9506703477485897
+2021-12-21 11:21:45,820 - test - INFO - 13: 0.6534276171031076
+2021-12-21 11:21:45,820 - test - INFO - 14: 0.6965419491729271
+2021-12-21 11:21:45,820 - test - INFO - 15: 0.8588644745700903
+2021-12-21 11:21:45,820 - test - INFO - 17: 0.8258564267279673
+2021-12-21 11:21:45,820 - test - INFO - 20: 0.8931209321047595
+2021-12-21 11:21:45,820 - test - INFO - 22: 0.7926593390234662
+2021-12-21 11:21:45,820 - test - INFO - 23: 0.6094939779869968
+2021-12-21 11:21:45,820 - test - INFO - 24: 0.9420957364820618
+2021-12-21 11:21:45,820 - test - INFO - 25: 0.7916333714871292
+2021-12-21 11:21:45,820 - test - INFO - 26: 0.9371548463897318
+2021-12-21 11:21:45,820 - test - INFO - 28: 0.5746376811470105
+2021-12-21 11:21:45,821 - test - INFO - 
+

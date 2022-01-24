@@ -57,7 +57,7 @@ DATA:
   dataset: Replica
   root_dir: example_data/replica # path to replica dataset
   semantics: class30 # empty or class30
-  semantic_strategy: predict # gt, predict, mono
+  semantic_strategy: gt # gt, predict, mono
   semantic_grid: True
   data_load_strategy: max_depth_diversity # max_depth_diversity, hybrid (Note: if X_shuffle is true, this option serves no purpose)
   load_scenes_at_once: 1
